@@ -335,3 +335,6 @@ def handle_file():
         except Exception as e:
             logger.error(f"Cleanup failed: {str(e)}")
 
+handler = app
+
+
